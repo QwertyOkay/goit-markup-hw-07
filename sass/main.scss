@@ -1,3 +1,4 @@
+
 @import "./utils/variables";
 @import "./components/body";
 @import "./utils/reset";
@@ -137,12 +138,9 @@
   /*-----------HEADER-------------*/
   
   .icon__social {
-    /* display: inline-block; */
     fill: currentColor;
     width: 20px;
     height: 20px;
-    /* width: 1em;
-    height: 1em; */
   }
   
   .icon__close {
@@ -767,7 +765,7 @@
     margin-bottom: 50px;
   }
   
-  .card-title {
+  .card__title {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -777,7 +775,7 @@
     color: var(--second-title-color);
   }
   
-  .card-text {
+  .card__text {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.19;

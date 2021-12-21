@@ -4,6 +4,21 @@ body {
   background-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .lists {
   margin: 0;
   padding: 0;
@@ -142,12 +157,9 @@ body {
 
 /*-----------HEADER-------------*/
 .icon__social {
-  /* display: inline-block; */
   fill: currentColor;
   width: 20px;
   height: 20px;
-  /* width: 1em;
-    height: 1em; */
 }
 
 .icon__close {
@@ -763,7 +775,7 @@ body {
   margin-bottom: 50px;
 }
 
-.card-title {
+.card__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -773,7 +785,7 @@ body {
   color: var(--second-title-color);
 }
 
-.card-text {
+.card__text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
