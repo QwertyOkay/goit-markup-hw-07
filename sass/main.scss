@@ -1,7 +1,7 @@
-
-@import "./utils/variables";
-@import "./components/body";
-@import "./utils/reset";
+@import './utils/main';
+@import './base/main';
+@import './components/main';
+@import './layout/main';
 
 :root {
     --current-font: Roboto, sans-serif;
@@ -40,7 +40,6 @@
   h6 {
     margin: 0;
   }
-  
   
   ul {
     margin: 0;
