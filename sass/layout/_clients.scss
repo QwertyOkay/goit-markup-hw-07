@@ -33,10 +33,11 @@
     transition-property: color, border;
     transition-duration: var(--duration);
     transition-timing-function: var(--function);
+
+    &:hover,
+    &:focus {
+      border: 1px solid var(--accent-color);
+      color: $accent-color;
+    }
   }
   
-  .clients__link:hover,
-  .clients__link:focus {
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
-  }

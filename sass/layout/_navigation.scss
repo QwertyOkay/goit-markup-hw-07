@@ -52,6 +52,11 @@
     transition-timing-function: var(--function);
     text-decoration: none;
     color: inherit;
+
+    &:hover,
+    &:focus {   
+      color: $accent-color;
+    }
   }
   
   .navigation__item > .navigation__link {
@@ -59,13 +64,6 @@
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
-  }
-
-  .navigation__link:hover,
-  .navigation__link:focus,
-  .contacts__link:hover,
-  .contacts__link:focus {   
-    color: var(--accent-color);
   }
 
   
